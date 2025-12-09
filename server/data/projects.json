@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Nexus Core",
+    "description": "Core infrastructure platform for enterprise applications"
+  },
+  {
+    "id": 2,
+    "name": "Aurora Framework",
+    "description": "Rapid development framework for web applications"
+  },
+  {
+    "id": 3,
+    "name": "Quantum DB",
+    "description": "High-performance distributed database system"
+  },
+  {
+    "id": 4,
+    "name": "Pulse Analytics",
+    "description": "Real-time data analysis and visualization"
+  },
+  {
+    "id": 5,
+    "name": "Voyager Mobile",
+    "description": "Cross-platform mobile application framework"
+  },
+  {
+    "id": 6,
+    "name": "OmniCloud",
+    "description": "Cloud infrastructure management system"
+  },
+  {
+    "id": 7,
+    "name": "Nebula AI",
+    "description": "Machine learning model training platform"
+  },
+  {
+    "id": 8,
+    "name": "Titan Security",
+    "description": "Enterprise security and access management"
+  },
+  {
+    "id": 9,
+    "name": "Horizon IoT",
+    "description": "Internet of Things device management"
+  },
+  {
+    "id": 10,
+    "name": "Pinnacle API",
+    "description": "RESTful API gateway and management"
+  }
+]

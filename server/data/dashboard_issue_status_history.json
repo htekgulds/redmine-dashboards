@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "issueId": 1,
+    "statusId": 1,
+    "enteredAt": "2025-12-01T09:00:00.000Z",
+    "leftAt": "2025-12-01T10:30:00.000Z",
+    "timeSpentSeconds": 5400
+  },
+  {
+    "id": 2,
+    "issueId": 1,
+    "statusId": 2,
+    "enteredAt": "2025-12-01T10:30:00.000Z",
+    "leftAt": "2025-12-02T11:15:00.000Z",
+    "timeSpentSeconds": 38700
+  },
+  {
+    "id": 3,
+    "issueId": 1,
+    "statusId": 3,
+    "enteredAt": "2025-12-02T11:15:00.000Z",
+    "leftAt": "2025-12-02T16:45:00.000Z",
+    "timeSpentSeconds": 19800
+  },
+  {
+    "id": 4,
+    "issueId": 2,
+    "statusId": 1,
+    "enteredAt": "2025-12-01T10:15:00.000Z",
+    "leftAt": "2025-12-01T14:30:00.000Z",
+    "timeSpentSeconds": 15300
+  },
+  {
+    "id": 5,
+    "issueId": 2,
+    "statusId": 2,
+    "enteredAt": "2025-12-01T14:30:00.000Z",
+    "leftAt": "2025-12-03T09:30:00.000Z",
+    "timeSpentSeconds": 154800
+  },
+  {
+    "id": 6,
+    "issueId": 3,
+    "statusId": 1,
+    "enteredAt": "2025-12-01T11:20:00.000Z",
+    "leftAt": "2025-12-01T12:45:00.000Z",
+    "timeSpentSeconds": 5100
+  },
+  {
+    "id": 7,
+    "issueId": 3,
+    "statusId": 2,
+    "enteredAt": "2025-12-01T12:45:00.000Z",
+    "leftAt": "2025-12-02T10:15:00.000Z",
+    "timeSpentSeconds": 45000
+  },
+  {
+    "id": 8,
+    "issueId": 3,
+    "statusId": 3,
+    "enteredAt": "2025-12-02T10:15:00.000Z",
+    "leftAt": "2025-12-02T16:30:00.000Z",
+    "timeSpentSeconds": 22500
+  },
+  {
+    "id": 9,
+    "issueId": 4,
+    "statusId": 1,
+    "enteredAt": "2025-12-01T13:10:00.000Z",
+    "leftAt": "2025-12-01T15:45:00.000Z",
+    "timeSpentSeconds": 9300
+  },
+  {
+    "id": 10,
+    "issueId": 4,
+    "statusId": 2,
+    "enteredAt": "2025-12-01T15:45:00.000Z",
+    "leftAt": "2025-12-03T14:20:00.000Z",
+    "timeSpentSeconds": 158100
+  },
+  {
+    "id": 11,
+    "issueId": 5,
+    "statusId": 1,
+    "enteredAt": "2025-12-01T14:05:00.000Z",
+    "leftAt": "2025-12-01T16:30:00.000Z",
+    "timeSpentSeconds": 8700
+  },
+  {
+    "id": 12,
+    "issueId": 5,
+    "statusId": 2,
+    "enteredAt": "2025-12-01T16:30:00.000Z",
+    "leftAt": "2025-12-04T11:15:00.000Z",
+    "timeSpentSeconds": 235500
+  },
+  {
+    "id": 13,
+    "issueId": 6,
+    "statusId": 1,
+    "enteredAt": "2025-12-02T09:15:00.000Z",
+    "leftAt": "2025-12-02T11:45:00.000Z",
+    "timeSpentSeconds": 9000
+  },
+  {
+    "id": 14,
+    "issueId": 6,
+    "statusId": 2,
+    "enteredAt": "2025-12-02T11:45:00.000Z",
+    "leftAt": "2025-12-03T10:30:00.000Z",
+    "timeSpentSeconds": 81900
+  },
+  {
+    "id": 15,
+    "issueId": 6,
+    "statusId": 3,
+    "enteredAt": "2025-12-03T10:30:00.000Z",
+    "leftAt": "2025-12-03T16:15:00.000Z",
+    "timeSpentSeconds": 20700
+  },
+  {
+    "id": 16,
+    "issueId": 7,
+    "statusId": 1,
+    "enteredAt": "2025-12-02T10:30:00.000Z",
+    "leftAt": "2025-12-02T14:15:00.000Z",
+    "timeSpentSeconds": 13500
+  },
+  {
+    "id": 17,
+    "issueId": 7,
+    "statusId": 2,
+    "enteredAt": "2025-12-02T14:15:00.000Z",
+    "leftAt": "2025-12-04T15:30:00.000Z",
+    "timeSpentSeconds": 178500
+  },
+  {
+    "id": 18,
+    "issueId": 8,
+    "statusId": 1,
+    "enteredAt": "2025-12-02T11:20:00.000Z",
+    "leftAt": "2025-12-02T12:45:00.000Z",
+    "timeSpentSeconds": 5400
+  },
+  {
+    "id": 19,
+    "issueId": 8,
+    "statusId": 2,
+    "enteredAt": "2025-12-02T12:45:00.000Z",
+    "leftAt": "2025-12-03T11:30:00.000Z",
+    "timeSpentSeconds": 81900
+  },
+  {
+    "id": 20,
+    "issueId": 8,
+    "statusId": 3,
+    "enteredAt": "2025-12-03T11:30:00.000Z",
+    "leftAt": "2025-12-03T17:00:00.000Z",
+    "timeSpentSeconds": 19800
+  },
+  {
+    "id": 21,
+    "issueId": 9,
+    "statusId": 1,
+    "enteredAt": "2025-12-03T09:00:00.000Z",
+    "leftAt": "2025-12-03T11:15:00.000Z",
+    "timeSpentSeconds": 8100
+  },
+  {
+    "id": 22,
+    "issueId": 9,
+    "statusId": 2,
+    "enteredAt": "2025-12-03T11:15:00.000Z",
+    "leftAt": "2025-12-04T10:00:00.000Z",
+    "timeSpentSeconds": 81900
+  },
+  {
+    "id": 23,
+    "issueId": 10,
+    "statusId": 1,
+    "enteredAt": "2025-12-03T10:30:00.000Z",
+    "leftAt": "2025-12-03T14:45:00.000Z",
+    "timeSpentSeconds": 15300
+  },
+  {
+    "id": 24,
+    "issueId": 10,
+    "statusId": 2,
+    "enteredAt": "2025-12-03T14:45:00.000Z",
+    "leftAt": "2025-12-05T16:30:00.000Z",
+    "timeSpentSeconds": 183300
+  },
+  {
+    "id": 25,
+    "issueId": 11,
+    "statusId": 1,
+    "enteredAt": "2025-12-03T13:20:00.000Z",
+    "leftAt": "2025-12-03T16:45:00.000Z",
+    "timeSpentSeconds": 12300
+  },
+  {
+    "id": 26,
+    "issueId": 11,
+    "statusId": 2,
+    "enteredAt": "2025-12-03T16:45:00.000Z",
+    "leftAt": "2025-12-05T14:15:00.000Z",
+    "timeSpentSeconds": 159000
+  },
+  {
+    "id": 27,
+    "issueId": 12,
+    "statusId": 1,
+    "enteredAt": "2025-12-04T09:15:00.000Z",
+    "leftAt": "2025-12-04T11:30:00.000Z",
+    "timeSpentSeconds": 8100
+  },
+  {
+    "id": 28,
+    "issueId": 12,
+    "statusId": 2,
+    "enteredAt": "2025-12-04T11:30:00.000Z",
+    "leftAt": "2025-12-05T10:45:00.000Z",
+    "timeSpentSeconds": 83700
+  },
+  {
+    "id": 29,
+    "issueId": 13,
+    "statusId": 1,
+    "enteredAt": "2025-12-04T10:30:00.000Z",
+    "leftAt": "2025-12-04T15:15:00.000Z",
+    "timeSpentSeconds": 17100
+  },
+  {
+    "id": 30,
+    "issueId": 13,
+    "statusId": 2,
+    "enteredAt": "2025-12-04T15:15:00.000Z",
+    "leftAt": "2025-12-06T16:30:00.000Z",
+    "timeSpentSeconds": 178500
+  },
+  {
+    "id": 31,
+    "issueId": 14,
+    "statusId": 1,
+    "enteredAt": "2025-12-04T11:45:00.000Z",
+    "leftAt": "2025-12-04T14:30:00.000Z",
+    "timeSpentSeconds": 9900
+  },
+  {
+    "id": 32,
+    "issueId": 14,
+    "statusId": 2,
+    "enteredAt": "2025-12-04T14:30:00.000Z",
+    "leftAt": "2025-12-07T11:15:00.000Z",
+    "timeSpentSeconds": 235500
+  },
+  {
+    "id": 33,
+    "issueId": 15,
+    "statusId": 1,
+    "enteredAt": "2025-12-05T09:30:00.000Z",
+    "leftAt": "2025-12-05T12:15:00.000Z",
+    "timeSpentSeconds": 9900
+  },
+  {
+    "id": 34,
+    "issueId": 15,
+    "statusId": 2,
+    "enteredAt": "2025-12-05T12:15:00.000Z",
+    "leftAt": "2025-12-06T10:30:00.000Z",
+    "timeSpentSeconds": 80100
+  },
+  {
+    "id": 35,
+    "issueId": 15,
+    "statusId": 3,
+    "enteredAt": "2025-12-06T10:30:00.000Z",
+    "leftAt": "2025-12-06T16:45:00.000Z",
+    "timeSpentSeconds": 22500
+  },
+  {
+    "id": 36,
+    "issueId": 16,
+    "statusId": 1,
+    "enteredAt": "2025-12-05T10:45:00.000Z",
+    "leftAt": "2025-12-05T14:15:00.000Z",
+    "timeSpentSeconds": 12600
+  },
+  {
+    "id": 37,
+    "issueId": 16,
+    "statusId": 2,
+    "enteredAt": "2025-12-05T14:15:00.000Z",
+    "leftAt": "2025-12-08T15:30:00.000Z",
+    "timeSpentSeconds": 261900
+  },
+  {
+    "id": 38,
+    "issueId": 17,
+    "statusId": 1,
+    "enteredAt": "2025-12-05T13:30:00.000Z",
+    "leftAt": "2025-12-05T16:45:00.000Z",
+    "timeSpentSeconds": 11700
+  },
+  {
+    "id": 39,
+    "issueId": 17,
+    "statusId": 2,
+    "enteredAt": "2025-12-05T16:45:00.000Z",
+    "leftAt": "2025-12-09T11:15:00.000Z",
+    "timeSpentSeconds": 306000
+  },
+  {
+    "id": 40,
+    "issueId": 18,
+    "statusId": 1,
+    "enteredAt": "2025-12-06T09:15:00.000Z",
+    "leftAt": "2025-12-06T12:30:00.000Z",
+    "timeSpentSeconds": 11700
+  },
+  {
+    "id": 41,
+    "issueId": 18,
+    "statusId": 2,
+    "enteredAt": "2025-12-06T12:30:00.000Z",
+    "leftAt": "2025-12-08T10:45:00.000Z",
+    "timeSpentSeconds": 167700
+  },
+  {
+    "id": 42,
+    "issueId": 19,
+    "statusId": 1,
+    "enteredAt": "2025-12-06T10:30:00.000Z",
+    "leftAt": "2025-12-06T15:15:00.000Z",
+    "timeSpentSeconds": 17100
+  },
+  {
+    "id": 43,
+    "issueId": 19,
+    "statusId": 2,
+    "enteredAt": "2025-12-06T15:15:00.000Z",
+    "leftAt": "2025-12-09T14:30:00.000Z",
+    "timeSpentSeconds": 254700
+  },
+  {
+    "id": 44,
+    "issueId": 20,
+    "statusId": 1,
+    "enteredAt": "2025-12-06T11:45:00.000Z",
+    "leftAt": "2025-12-06T14:30:00.000Z",
+    "timeSpentSeconds": 9900
+  },
+  {
+    "id": 45,
+    "issueId": 20,
+    "statusId": 2,
+    "enteredAt": "2025-12-06T14:30:00.000Z",
+    "leftAt": "2025-12-10T10:15:00.000Z",
+    "timeSpentSeconds": 303300
+  },
+  {
+    "id": 46,
+    "issueId": 21,
+    "statusId": 1,
+    "enteredAt": "2025-12-07T09:30:00.000Z",
+    "leftAt": "2025-12-07T12:15:00.000Z",
+    "timeSpentSeconds": 9900
+  },
+  {
+    "id": 47,
+    "issueId": 21,
+    "statusId": 2,
+    "enteredAt": "2025-12-07T12:15:00.000Z",
+    "leftAt": "2025-12-09T11:30:00.000Z",
+    "timeSpentSeconds": 167100
+  },
+  {
+    "id": 48,
+    "issueId": 22,
+    "statusId": 1,
+    "enteredAt": "2025-12-07T10:45:00.000Z",
+    "leftAt": "2025-12-07T14:30:00.000Z",
+    "timeSpentSeconds": 13500
+  },
+  {
+    "id": 49,
+    "issueId": 22,
+    "statusId": 2,
+    "enteredAt": "2025-12-07T14:30:00.000Z",
+    "leftAt": "2025-12-10T15:45:00.000Z",
+    "timeSpentSeconds": 262500
+  },
+  {
+    "id": 50,
+    "issueId": 23,
+    "statusId": 1,
+    "enteredAt": "2025-12-08T09:15:00.000Z",
+    "leftAt": "2025-12-08T11:45:00.000Z",
+    "timeSpentSeconds": 9000
+  },
+  {
+    "id": 51,
+    "issueId": 23,
+    "statusId": 2,
+    "enteredAt": "2025-12-08T11:45:00.000Z",
+    "leftAt": "2025-12-10T10:30:00.000Z",
+    "timeSpentSeconds": 167100
+  },
+  {
+    "id": 52,
+    "issueId": 24,
+    "statusId": 1,
+    "enteredAt": "2025-12-08T10:30:00.000Z",
+    "leftAt": "2025-12-08T14:15:00.000Z",
+    "timeSpentSeconds": 13500
+  },
+  {
+    "id": 53,
+    "issueId": 24,
+    "statusId": 2,
+    "enteredAt": "2025-12-08T14:15:00.000Z",
+    "leftAt": "2025-12-11T16:45:00.000Z",
+    "timeSpentSeconds": 270000
+  },
+  {
+    "id": 54,
+    "issueId": 25,
+    "statusId": 1,
+    "enteredAt": "2025-12-09T09:30:00.000Z",
+    "leftAt": "2025-12-09T12:15:00.000Z",
+    "timeSpentSeconds": 9900
+  },
+  {
+    "id": 55,
+    "issueId": 25,
+    "statusId": 2,
+    "enteredAt": "2025-12-09T12:15:00.000Z",
+    "leftAt": "2025-12-11T11:30:00.000Z",
+    "timeSpentSeconds": 167100
+  },
+  {
+    "id": 56,
+    "issueId": 1,
+    "statusId": 4,
+    "enteredAt": "2025-12-02T16:45:00.000Z",
+    "leftAt": null,
+    "timeSpentSeconds": null
+  },
+  {
+    "id": 57,
+    "issueId": 3,
+    "statusId": 4,
+    "enteredAt": "2025-12-02T16:30:00.000Z",
+    "leftAt": null,
+    "timeSpentSeconds": null
+  },
+  {
+    "id": 58,
+    "issueId": 6,
+    "statusId": 4,
+    "enteredAt": "2025-12-03T16:15:00.000Z",
+    "leftAt": null,
+    "timeSpentSeconds": null
+  },
+  {
+    "id": 59,
+    "issueId": 8,
+    "statusId": 4,
+    "enteredAt": "2025-12-03T17:00:00.000Z",
+    "leftAt": null,
+    "timeSpentSeconds": null
+  },
+  {
+    "id": 60,
+    "issueId": 15,
+    "statusId": 4,
+    "enteredAt": "2025-12-06T16:45:00.000Z",
+    "leftAt": null,
+    "timeSpentSeconds": null
+  }
+]
