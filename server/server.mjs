@@ -1,7 +1,7 @@
 import { H3, serve } from "h3";
-import route from "./redmine/projects.mjs";
+import redmineRoutes from "./redmine.mjs";
 
 const app = new H3().get("/", (event) => "⚡️ Tadaa!");
-app.mount("/redmine", route);
+app.mount("/redmine", redmineRoutes);
 
 serve(app, { port: 3000 });
