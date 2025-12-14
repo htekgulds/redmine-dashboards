@@ -1,7 +1,9 @@
+import Stats from '../components/stats/Stats'
+
 export default function Home () {
   return (
     <div>
-      <h1>Home</h1>
+      <Stats />
     </div>
   )
 }
