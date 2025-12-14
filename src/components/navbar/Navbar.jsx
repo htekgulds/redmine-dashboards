@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import MenuDropdown from './MenuDropdown'
-import MenuOpen from './MenuOpen'
+// import MenuDropdown from './MenuDropdown'
+// import MenuOpen from './MenuOpen'
+import ThemeSwitch from '../theme/ThemeSwitch'
 
 export default function Navbar () {
   return (
@@ -9,7 +10,7 @@ export default function Navbar () {
         {/* Left Side */}
         {/* <MenuDropdown /> */}
         <a className='btn btn-ghost text-xl' href='/'>
-          <FontAwesomeIcon icon="fa-solid fa-gauge-high" />
+          <FontAwesomeIcon icon='fa-solid fa-gauge-high' />
           Redmine Dash
         </a>
       </div>
@@ -19,6 +20,7 @@ export default function Navbar () {
       </div>
       <div className='navbar-end'>
         {/* Right Side */}
+        <ThemeSwitch />
       </div>
     </div>
   )

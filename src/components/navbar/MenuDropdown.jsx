@@ -1,4 +1,4 @@
-export default function Menu() {
+export default function Menu () {
   return (
     <div className='dropdown'>
       <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
