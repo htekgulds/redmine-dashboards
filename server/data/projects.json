@@ -2,51 +2,61 @@
   {
     "id": 1,
     "name": "Nexus Core",
-    "description": "Core infrastructure platform for enterprise applications"
+    "description": "Core infrastructure platform for enterprise applications",
+    "createdOn": "2025-12-10"
   },
   {
     "id": 2,
     "name": "Aurora Framework",
-    "description": "Rapid development framework for web applications"
+    "description": "Rapid development framework for web applications",
+    "createdOn": "2025-12-08"
   },
   {
     "id": 3,
     "name": "Quantum DB",
-    "description": "High-performance distributed database system"
+    "description": "High-performance distributed database system",
+    "createdOn": "2025-12-12"
   },
   {
     "id": 4,
     "name": "Pulse Analytics",
-    "description": "Real-time data analysis and visualization"
+    "description": "Real-time data analysis and visualization",
+    "createdOn": "2025-11-15"
   },
   {
     "id": 5,
     "name": "Voyager Mobile",
-    "description": "Cross-platform mobile application framework"
+    "description": "Cross-platform mobile application framework",
+    "createdOn": "2025-11-20"
   },
   {
     "id": 6,
     "name": "OmniCloud",
-    "description": "Cloud infrastructure management system"
+    "description": "Cloud infrastructure management system",
+    "createdOn": "2025-10-05"
   },
   {
     "id": 7,
     "name": "Nebula AI",
-    "description": "Machine learning model training platform"
+    "description": "Machine learning model training platform",
+    "createdOn": "2025-09-18"
   },
   {
     "id": 8,
     "name": "Titan Security",
-    "description": "Enterprise security and access management"
+    "description": "Enterprise security and access management",
+    "createdOn": "2025-08-22"
   },
   {
     "id": 9,
     "name": "Horizon IoT",
-    "description": "Internet of Things device management"
+    "description": "Internet of Things device management",
+    "createdOn": "2025-07-30"
   },
   {
     "id": 10,
     "name": "Pinnacle API",
-    "description": "RESTful API gateway and management"
+    "description": "RESTful API gateway and management",
+    "createdOn": "2025-06-12"
   }
 ]
