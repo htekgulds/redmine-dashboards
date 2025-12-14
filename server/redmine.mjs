@@ -15,6 +15,36 @@ const users = readFileAsJson('users.json')
 
 const app = new H3()
 
+app.get('/stats-summary', async (event) => {
+  const today = '2025-12-14'
+  const todayProjects = dailyProjectStats.filter(x => x.date === today)
+  const projectCount = todayProjects.length
+  
+  const oneWeekAgo = new Date('2025-12-07')
+  const newProjectsSinceLastWeek = projects.filter(project => new Date(project.createdOn) >= oneWeekAgo)
+  const newProjectCount = newProjectsSinceLastWeek.length
+
+  const openIssueCount = todayProjects.reduce((sum, project) => sum + project.openIssues, 0);
+  const newIssueCount = todayProjects.reduce((sum, project) => sum + project.newIssues, 0);
+  const closedIssueCount = todayProjects.reduce((sum, project) => sum + project.closedIssues, 0);
+
+  const userCount = users.length
+
+  const estimatedHoursTotal = todayProjects.reduce((sum, project) => sum + project.estimatedHoursTotal, 0)
+  const loggedHoursTotal = todayProjects.reduce((sum, project) => sum + project.loggedHoursTotal, 0)
+  
+  return {
+    projectCount,
+    newProjectCount,
+    openIssueCount,
+    newIssueCount,
+    closedIssueCount,
+    userCount,
+    estimatedHoursTotal,
+    loggedHoursTotal
+  }
+})
+
 app.get('/daily-project-stats', async (event) => {
   return dailyProjectStats
 })
