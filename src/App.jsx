@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router'
+import { Routes, Route, Navigate } from 'react-router'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home'
@@ -12,7 +12,13 @@ function App () {
       {/* Main Content */}
       <main className='container mx-auto p-4 flex-1 min-h-120'>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home />}>
+            <Route index element={<Navigate to='/projects' />} />
+            <Route path='projects' />
+            <Route path='contributors' />
+            <Route path='issues' />
+            <Route path='time' />
+          </Route>
           {/* <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/projects' element={<Projects />} /> */}
         </Routes>
